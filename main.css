@@ -47,27 +47,86 @@
     vertical-align: middle;
 }
 
-/*Search Forum */
+/* Search Form */
+
+body {
+    text-align: center;
+}
+
+#search-form {
+    
+}
 
 .googleimg { 
-
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 109px;
-   
 }
 
-.search-form {
-    width: 100%;
+.search-bar {
+    width: 400px;
+    height: 40px;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    margin: 20px 0 25px 0;
+    background-image: url(https://lh3.googleusercontent.com/GApFrvtO4XFz8oQGQZsOPvNM3pm8ZuuH-jqQA2g9ITejNmFrmiAXymI_KGiZxADXBTuA0XahwrlTwpdMKJwQjHs2SAWsqsuk_bd26tQ), url(/images/magnifying-glass-1976105_1280.png);
+    background-repeat: no-repeat;
+    background-position: 98%, 2%;
+    background-size: 25px 25px, 23px 23px;
+    padding: 0px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+
+.search-bar:hover {
+    box-shadow: 1px 1px 4px 1px #d3d5d8;    
+}
+
+.search-bar:focus {
+    outline: none;
+    box-shadow: 1px 1px 4px 1px #d3d5d8;    
+
+}
+
+form button {
+    color: #5f6368;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    padding: 3px 16px;
+    border-radius: 2px;
+    line-height: 28px;
+    font-size: 14px;
+    border-radius: 4px;
     text-align: center;
+    cursor: pointer;
 }
 
-.google-french {
-    text-align: center;
+form button:hover {
+    color: #222;
+    border: 1px solid #c1c3c5;
 }
 
-/*Lower Navigation Bar */
+.divider {
+    width: 5px;
+    height: auto;
+    display: inline-block;
+}
+
+main p {
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #222222;
+}
+
+main p a {
+    text-decoration: none;
+}
+
+
+/* Lower Navigation Bar */
 
 .lower-nav {
 

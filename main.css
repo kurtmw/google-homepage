@@ -1,3 +1,54 @@
+/* Top Navigation Bar */
+
+#top-nav {
+    width: 100%;
+    float:left;
+    margin: 0 0 3em 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+
+#top-nav li a{
+    text-decoration: none;
+    display: block;
+    padding: 15px 12px;
+    font-family: Arial;
+    font-size: 13px;
+    color: #222;
+    line-height: 25px;
+}
+
+#top-nav li a img {
+    vertical-align: middle;
+}
+
+#top-nav li button {
+    color: #fff;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    background: #4285f4;
+    padding: 0 12px;
+    border-radius: 2px;
+    line-height: 28px;
+    margin: 15px 12px 0 12px;
+}
+
+ .left-nav li {
+    float: left;
+}
+
+.right-nav li {
+    float: right;
+}
+
+.right-nav li button {
+    display: inline;
+    vertical-align: middle;
+}
+
+/*Search Forum */
+
 .googleimg { 
 
     display: block;
@@ -12,13 +63,11 @@
     text-align: center;
 }
 
-.left-nav {
-    float: left;
+.google-french {
+    text-align: center;
 }
 
-.right-nav {
-    float: right;
-}
+/*Lower Navigation Bar */
 
 .lower-nav {
 
@@ -26,12 +75,3 @@
   bottom: 0;
   width: 100%;
 }
-
-li {
-    display: inline;
-}
-
-ul {
-    list-style-type: none;
-}
-

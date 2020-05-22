@@ -36,6 +36,7 @@
     border-radius: 2px;
     line-height: 28px;
     margin: 15px 12px 0 12px;
+
 }
 
  .left-nav li {
@@ -49,6 +50,7 @@
 .right-nav li button {
     display: inline;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 /* Search Form */

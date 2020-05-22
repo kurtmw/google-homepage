@@ -19,6 +19,10 @@
     line-height: 25px;
 }
 
+#top-nav li a:hover{
+    text-decoration: underline;
+}
+
 #top-nav li a img {
     vertical-align: middle;
 }
